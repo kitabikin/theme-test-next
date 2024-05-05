@@ -11,7 +11,7 @@ const Gutter = React.forwardRef<HTMLDivElement, GutterProps>(
     return (
       <div
         className={cn(
-          'container max-w-screen-2xl',
+          'container',
           !left && 'pl-0',
           !right && 'pr-0',
           className,
